@@ -2,3 +2,5 @@ scripts:
   format:
     cmd: deno fmt
     gitHook: pre-commit
+  prepare:
+    cmd: git config core.hooksPath hooks && chmod 700 hooks/*
