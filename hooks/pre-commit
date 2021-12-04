@@ -1,10 +1,10 @@
 #!/usr/bin/env node
-const childProcess = require('child_process');
+const childProcess = require('child_process')
 
 try {
-  childProcess.execSync('denon -v');
-  // childProcess.execSync('denon lint');
+  childProcess.execSync('vr --version')
+  childProcess.execSync('vr format')
 } catch (error) {
-  console.log(error.stdout.toString());
-  process.exit(1);
+  console.log(error.stdout.toString())
+  process.exit(1)
 }

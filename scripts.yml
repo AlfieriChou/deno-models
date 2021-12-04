@@ -1,3 +1,4 @@
 scripts:
-  lint: "deno fmt **/*.ts"
-  prepare: "git config core.hooksPath hooks && chmod 700 hooks/*"
+  format:
+    cmd: deno fmt
+    gitHook: pre-commit

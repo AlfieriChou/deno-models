@@ -1,5 +1,4 @@
 class DenoModels {
-
 }
 
-export const createModels = new DenoModels()
+export const createModels = new DenoModels();
