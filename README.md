@@ -6,3 +6,7 @@ json/yaml file DSL
 ```bash
 udd deps.ts
 ```
+
+## script
+
+using ![denon](https://github.com/denosaurs/denon)
