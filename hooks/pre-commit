@@ -3,7 +3,7 @@ const childProcess = require('child_process');
 
 try {
   childProcess.execSync('denon -v');
-  childProcess.execSync('denon lint');
+  // childProcess.execSync('denon lint');
 } catch (error) {
   console.log(error.stdout.toString());
   process.exit(1);
