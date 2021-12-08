@@ -1,0 +1,5 @@
+{
+  "imports": {
+     "ajv": "https://esm.sh/ajv@8.6.1"
+  }
+}
